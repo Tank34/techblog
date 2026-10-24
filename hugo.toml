@@ -1,0 +1,42 @@
+baseURL = 'https://JOUW_GITHUB_NAAM.github.io/techblog/'
+locale = 'en-us'
+title = "Techblog | Network Automation & AI"
+theme = "PaperMod"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+# Making search work:
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Techblog | Network Automation & AI"
+    Content = "Documentation, notes, home IT projects"
+
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 5
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 10
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 15
