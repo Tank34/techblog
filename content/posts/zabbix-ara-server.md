@@ -4,7 +4,7 @@ description: "Creating a Zabbix template to create some assurance for my Ansible
 date: 2026-10-24T10:00:00+02:00
 tags: ["zabbix", "ara-server", "ansible", "openwrt"]
 categories: ["Monitoring", "Automation"]
-draft: true  
+draft: false
 ---
 
 # Basic ARA-server monitoring with Zabbix
